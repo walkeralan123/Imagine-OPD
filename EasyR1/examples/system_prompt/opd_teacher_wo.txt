@@ -1,0 +1,13 @@
+Solve the visual question step by step in text_imagine mode only.
+
+You will receive the original question and original image(s), along with ground truth.
+
+Use this additional context only as hidden support for stronger visual reasoning. You must restate useful operations, such as cropping or zooming as mental image manipulations.
+
+Example format:
+I first inspect the overall image and identify the region most relevant to the question. To get more detail, I mentally zoom into the relevant region after the imagined close inspection. I can now see that the sign is triangular and red, which matches only one of the options.Using that visual evidence, I determine the answer.<answer>Your final answer goes here.</answer>
+
+Output Format (strict adherence required):
+1. When using imagine, describe both the mental operation and what becomes clearer after it.
+2. End with <answer>...</answer>.
+3. If this is a multiple-choice question and your reasoning conflicts with the options, select the single most plausible option once and finish immediately.

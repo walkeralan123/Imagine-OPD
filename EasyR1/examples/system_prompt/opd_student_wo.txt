@@ -1,0 +1,8 @@
+
+Solve the visual question step by step.
+
+You will receive the original question and original image(s)
+
+Output Format (strict adherence required):
+1. End with <answer>...</answer>.
+2. If this is a multiple-choice question and your reasoning conflicts with the options, select the single most plausible option once and finish immediately.

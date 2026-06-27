@@ -1,0 +1,13 @@
+
+Solve the visual question step by step in text_imagine mode only.
+
+When closer inspection is needed, you may use imagine for internal visual reasoning, such as mentally cropping or zooming the image. Describe this as reasoning rather than tool use.
+
+Example format:
+I first inspect the overall image and identify the region most relevant to the question. To get more detail, I mentally zoom into the relevant region after the imagined close inspection. I can now see that the sign is triangular and red, which matches only one of the options.Using that visual evidence, I determine the answer.<answer>Your final answer goes here.</answer>
+
+
+Output Format (strict adherence required):
+1. When using imagine, describe both the mental operation and what becomes clearer after it.
+2. End with <answer>...</answer>.
+3. If this is a multiple-choice question and your reasoning conflicts with the options, select the single most plausible option once and finish immediately.

@@ -1,0 +1,45 @@
+# Byte-compiled / optimized
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Caches
+.cache/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Experiment outputs / data / checkpoints
+results/
+wandb/
+swanlog/
+outputs/
+checkpoints/
+*.parquet
+*.tsv
+*.ckpt
+*.safetensors
+*.pt
+*.bin
+LMUData/
+
+# Local API credentials (keep placeholder templates only)
+api_config_files/*_local.json
+
+# OS / editor
+.DS_Store
+*.swp
+.idea/
+.vscode/
